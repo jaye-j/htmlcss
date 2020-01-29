@@ -8,14 +8,18 @@
 </head>
 <style>
         .header{
+            position: absolute;
+            bottom: 90%;
             background-color: hotpink;
             height: 10%;
             width: 100%;
-            line-height: 100px;
             text-align: center;
             margin: 0;
         }
         .sidebar{
+            position: absolute;
+            left: 0%;
+            bottom: 10%;
             display: inline-block;
             background-color: pink;
             width: 20%;
@@ -26,21 +30,25 @@
             
         }
         .sidebar2{
+            position: absolute;
+            left: 80%;
+            bottom: 10%;
             display: inline-block;
             background-color: pink;
             width: 20%;
             height: 80%;
-            line-height: 800px;
             box-sizing: border-box;
             margin: 0;
             text-align: center;
         }
         .main{
+            position: absolute;
+            left: 20%;
+            bottom: 10%;
             display: inline-block;
             background-color: plum;
-            width: 59%;
+            width: 60%;
             height: 80%;
-            line-height: 800px;
             box-sizing: border-box;
             margin: 0;
             text-align: center;
@@ -49,8 +57,9 @@
             margin: 0;
         }
         .footer{
+            position: absolute;
+            bottom: 0%;
             background-color: hotpink;
-            line-height: 100px;
             height: 10%;
             width: 100%;
             text-align: center;
@@ -66,7 +75,7 @@
         <div id="parent">
             <span class="sidebar">SIDEBAR</span>
             <span class="main">MAIN</span>
-            <span class="sidebar2">sidebar2</span>
+            <span class="sidebar2">SIDEBAR2</span>
         </div>
         <div class="footer">FOOTER</div>
     </body>
