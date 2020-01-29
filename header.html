@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTOWN HOL'IT DOWN</title>
+
+    <style>
+        body{
+            margin: 0px;
+        }
+        .nav{
+            position: fixed;
+            background-color: black;
+            width: 100%;
+            height: 35px;
+            z-index: 50;
+            color: white;
+            font-size: 25px;
+            padding: 2px;
+            text-align: right;
+        }
+        .header{
+            height: 400px;
+            background-color: light gray;
+        }
+        .imgContainer{
+            height: 438px;
+            width: 100%;
+            overflow: hidden;
+            position: absolute;
+            top: 0px;
+            z-index: 10;
+
+        }
+        /* .cityimage{
+            position: absolute;
+            left: 0px;
+        } */
+        .opacityContainer{
+            background-color: black;
+            height: 438px;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            z-index: 20;
+            opacity: 70%;
+        }
+        .textContainer{
+            position: absolute;
+            z-index: 30;
+            width: 100%;
+            height: 435px;
+            top: 0px;
+            color: white;
+            text-align: center;
+            line-height: 443px;
+            font-size: 55px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .lightBlue{
+            background-color: lightgray;
+            width: 100%;
+            height: 350px;
+        }
+        .whiteContainer{
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <a href="">Home</a>
+    <a href="">Blog</a>
+    <a href="">HTown</a>
+    <a href="">FAQ</a>
+</div>
+<div class="header">
+    <div class="imgContainer">
+        <img class="cityimage" src="https://www.outfrontmedia.com/-/media/images/ofm/markets/houston/houston-hero.ashx" alt="HTOWN" width="100%">
+    </div>
+    <div class="textContainer"> howdy houston.</div>
+    <div class="opacityContainer"></div>
+</div>
+<!-- end of header -->
+<div class="main">
+        <div class="whiteContainer"></div>
+        <div class="lightBlue"></div>
+        <div class="whiteContainer"></div>
+        <div class="lightBlue"></div>
+    </div>
+</body>
+</html>
