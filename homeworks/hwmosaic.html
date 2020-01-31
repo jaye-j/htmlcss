@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mosaic</title>
     <style>
-    
-
-        .container{
+        .container {
             width: 100vw;
             height: 100vh;
             display: flex;
@@ -16,7 +15,7 @@
             align-items: stretch;
         }
 
-        .flexContainerRow{
+        .flexContainerRow {
             display: flex;
             flex-direction: row;
             height: 100%;
@@ -24,55 +23,65 @@
 
         }
 
-        .flexContainerColumn{
+        .flexContainerColumn {
             display: flex;
             flex-direction: column;
             height: 100%;
             align-items: stretch;
         }
-        .red{
-            background-color:red;
+
+        .red {
+            background-color: red;
         }
-        .white{
+
+        .white {
             background-color: white;
         }
-        .black{
+
+        .black {
             background-color: black;
         }
-        .yellow{
+
+        .yellow {
             background-color: yellow;
         }
-        .blue{
+
+        .blue {
             background-color: blue;
         }
-        .flex1{
+
+        .flex1 {
             flex: 1;
         }
-        .flex2{
+
+        .flex2 {
             flex: 2;
         }
-        .flex3{
+
+        .flex3 {
             flex: 3;
         }
-        .flex4{
+
+        .flex4 {
             flex: 4;
         }
-        .flex5{
+
+        .flex5 {
             flex: 5;
         }
-        .flex8{
+
+        .flex8 {
             flex: 8;
         }
-        .border{
+
+        .border {
             border: black solid 1px;
         }
-
-
-
     </style>
 </head>
+
 <body>
-    <div class="container">
+    <div class="container border">
         <div class="flex1 red flexContainerColumn border">
             <div class="flexContainerRow flex1 border">
                 <div class="flex2 white border"></div>
@@ -115,8 +124,8 @@
 
 
 
-        <div class="flex1 black flexContainerRow">
-            <div class="flexContainerColumn blue flex1">
+        <div class="flex1 black flexContainerRow border">
+            <div class="flexContainerColumn blue flex1 border">
                 <div class="yellow flex1 border"></div>
                 <div class="yellow flex2 border"></div>
                 <div class="white flex2 border flexContainerRow">
@@ -127,19 +136,19 @@
                 <div class="blue flex2 border"></div>
                 <div class="red flex2 border"></div>
             </div>
-            <div class="flexContainerColumn red flex1">
-                    <div class="blue flex2 border"></div>
-                    <div class="red flex2 border"></div>
+            <div class="flexContainerColumn red flex1 border">
+                <div class="blue flex2 border"></div>
+                <div class="red flex2 border"></div>
+                <div class="white flex1 border"></div>
+                <div class="white flex2 border flexContainerRow">
                     <div class="white flex1 border"></div>
-                    <div class="white flex2 border flexContainerRow">
-                            <div class="white flex1 border"></div>
-                            <div class="white flex1 border"></div>
-                    </div>
-                    <div class="yellow flex2 border"></div>
-                    <div class="white flex1 border flexContainerRow">
-                            <div class="white flex1 border"></div>
-                            <div class="black flex1 border"></div>
-                    </div>
+                    <div class="white flex1 border"></div>
+                </div>
+                <div class="yellow flex2 border"></div>
+                <div class="white flex1 border flexContainerRow">
+                    <div class="white flex1 border"></div>
+                    <div class="black flex1 border"></div>
+                </div>
             </div>
         </div>
 
@@ -184,4 +193,5 @@
         </div>
     </div>
 </body>
+
 </html>

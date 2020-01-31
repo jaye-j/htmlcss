@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+#square {
+    width: 20px;
+    height: 20px;
+    border: solid black 2px;
+}
+#circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: black solid 2px;
+}
+#oval {
+    width: 600px;
+    height: 300px;
+    border-radius: 50%;
+    border: blue solid 3px;
+}
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+}
+#star-six {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid red;
+        position: relative;
+    }
+    #star-six:after {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid red;
+        position: absolute;
+        content: "";
+        top: 30px;
+        left: -50px;
+    }
+    #pacman {
+        width: 0px;
+        height: 0px;
+        border-right: 60px solid transparent;
+        border-top: 60px solid yellow;
+        border-left: 60px solid yellow;
+        border-bottom: 60px solid yellow;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+    }
+    </style>
+</head>
+<body>
+    <div id="triangle-up"></div>
+    <div id="square"></div>
+    <div id="circle"></div>
+    <div id="pacman"></div>
+    <div id="oval"></div>
+    <div id="triangle-down"></div>
+    <div id="star-six"></div>
+</body>
+</html>
